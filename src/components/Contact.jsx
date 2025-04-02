@@ -95,7 +95,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Contacto</h2>
-          <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
+          <div className="w-20 h-2 bg-orange-600 mx-auto mt-4 mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             ¿Interesado en trabajar juntos? Contacta conmigo a través de las
             siguientes opciones.
@@ -105,10 +105,10 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto glass-card p-8 md:p-12">
           <div className="flex flex-col items-center space-y-6">
             <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">Email</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-950">Email</h3>
               <a
                 href={`mailto:${contact.email}`}
-                className="text-secondary hover:underline flex items-center justify-center gap-2"
+                className="text-orange-600 hover:underline flex items-center justify-center gap-2"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ const Contact = () => {
             </div>
 
             <div className="w-full pt-6 border-t border-gray-200">
-              <h3 className="text-xl font-semibold mb-4 text-center">
+              <h3 className="text-xl font-semibold mb-4 text-center text-gray-950">
                 Redes Sociales
               </h3>
               <div className="flex justify-center flex-wrap gap-6">
@@ -141,7 +141,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group"
                   >
-                    <div className="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all">
+                    <div className="w-12 h-12 rounded-full bg-violet-400 flex items-center justify-center text-white group-hover:bg-lime-400 group-hover:text-white transition-all">
                       {getIcon(social.icon)}
                     </div>
                     <span className="mt-2 text-gray-700">{social.name}</span>
