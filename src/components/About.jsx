@@ -21,7 +21,7 @@ const About = () => {
   const bioParagraphs = personal.fullBio.split("\n\n");
 
   return (
-    <section id="about" className="bg-stone-100">
+    <section id="about" className="bg-lime-50">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Sobre Mí</h2>
@@ -41,26 +41,26 @@ const About = () => {
 
           <div className="lg:w-2/3 space-y-4 animate-slide-in">
             {bioParagraphs.map((paragraph, index) => (
-              <p key={index} className="text-gray-700 leading-relaxed">
+              <p key={index} className="text-gray-950 leading-relaxed">
                 {paragraph}
               </p>
             ))}
 
             <div className="mt-8 pt-6 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-lime-400 font-bold">10+</div>
+                <div className="text-3xl text-violet-500 font-bold">10+</div>
                 <div className="text-gray-600">Años de Experiencia</div>
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-lime-400 font-bold">30+</div>
+                <div className="text-3xl text-violet-500 font-bold">30+</div>
                 <div className="text-gray-500">Proyectos Completados</div>
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-lime-400 font-bold">15+</div>
+                <div className="text-3xl text-violet-500 font-bold">15+</div>
                 <div className="text-gray-500">Tecnologías</div>
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-lime-400 font-bold">10+</div>
+                <div className="text-3xl text-violet-500 font-bold">10+</div>
                 <div className="text-gray-500">Clientes Satisfechos</div>
               </div>
             </div>

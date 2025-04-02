@@ -26,11 +26,11 @@ const Hero = () => {
     >
       <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left animate-fade-in">
-          <p className="text-secondary text-lg mb-2 text-gray-200">Hola, soy</p>
+          <p className="text-lg mb-2 text-gray-200 font-bold">Hola! soy:</p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             {personal.name}
           </h1>
-          <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">
+          <h2 className="text-2xl md:text-3xl text-gray-200 mb-6">
             {personal.profession}
           </h2>
           <p className="text-lg text-gray-950 mb-8 max-w-lg mx-auto md:mx-0">
@@ -45,7 +45,7 @@ const Hero = () => {
             </a>
             <a
               href="#contact"
-              className="inline-block bg-orange-200 hover:bg-gray-100 text-primary py-3 px-8 rounded-lg shadow-lg transition-colors"
+              className="inline-block bg-lime-400 hover:bg-orange-600 text-white py-3 px-8 rounded-lg shadow-lg transition-colors"
             >
               Contacto
             </a>
