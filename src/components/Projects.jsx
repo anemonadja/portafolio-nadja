@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           {project.tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-secondary/10 text-secondary px-3 py-1 rounded-full text-sm"
+              className="bg-gray-200 text-gray-950 px-3 py-1 rounded-full text-sm"
             >
               {tag}
             </span>
@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-secondary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary/90 transition-colors"
+            className="bg-lime-400 text-gray-950 px-4 py-2 rounded-lg text-sm hover:bg-secondary/90 transition-colors"
           >
             Ver Proyecto
           </a>
@@ -39,7 +39,7 @@ const ProjectCard = ({ project }) => {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-800 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-700 transition-colors flex items-center gap-1"
+            className="bg-violet-500 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-700 transition-colors flex items-center gap-1"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
