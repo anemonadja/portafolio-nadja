@@ -27,14 +27,6 @@ const Cv = () => {
         <div class="mt-6 border-t border-gray-100">
             <dl class="divide-y divide-gray-100">
             <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt class="text-sm/6 font-medium text-gray-900">2009</dt>
-                <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">Participación con proyecto en Santiago Diseño</dd>
-            </div>
-            <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt class="text-sm/6 font-medium text-gray-900">2011</dt>
-                <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">Participación con proyecto en Santiago Diseño</dd>
-            </div>
-            <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                 <dt class="text-sm/6 font-medium text-gray-900">2013</dt>
                 <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">Título Diseño Industrial</dd>
             </div>
