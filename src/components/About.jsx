@@ -25,7 +25,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Sobre Mí</h2>
-          <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
+          <div className="w-20 h-2 bg-lime-400 mx-auto mt-4 mb-6"></div>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-10 items-center">
@@ -48,19 +48,19 @@ const About = () => {
 
             <div className="mt-8 pt-6 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">10+</div>
+                <div className="text-3xl text-lime-400 font-bold">10+</div>
                 <div className="text-gray-600">Años de Experiencia</div>
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">30+</div>
+                <div className="text-3xl text-lime-400 font-bold">30+</div>
                 <div className="text-gray-500">Proyectos Completados</div>
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">15+</div>
+                <div className="text-3xl text-lime-400 font-bold">15+</div>
                 <div className="text-gray-500">Tecnologías</div>
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">10+</div>
+                <div className="text-3xl text-lime-400 font-bold">10+</div>
                 <div className="text-gray-500">Clientes Satisfechos</div>
               </div>
             </div>
