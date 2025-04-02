@@ -18,7 +18,7 @@ const Cv = () => {
   }
 
   return (
-    <section id="cv" className="to-muted">
+    <section id="cv" className="bg-violet-100">
         <div>
             </div><div class="px-4 sm:px-0">
             <h3 class="text-base/7 font-semibold text-gray-900">Hitos Académicos</h3>
