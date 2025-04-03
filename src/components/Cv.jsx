@@ -20,8 +20,8 @@ const Cv = () => {
   return (
     <section id="cv" className="bg-lime-50">
         <div>
-            </div><div class="px-4 sm:px-0">
-            <h3 class="text-base/7 font-semibold text-gray-900">Hitos Académicos</h3>
+            </div><div class="px-3 sm:px-0">
+            <h2 class="text-base/7 font-semibold text-gray-900">Hitos Académicos</h2>
             <p class="mt-1 max-w-2xl text-sm/6 text-gray-500">soy autodidacta de corazón, pero estos son mis estudios formales</p>
         </div>
         <div class="mt-6 border-t border-gray-100">

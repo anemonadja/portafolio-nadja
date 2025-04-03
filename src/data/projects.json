@@ -4,7 +4,7 @@
     "name": "Web",
     "description": "Proyecto realizado con React, para el curso Desarrollo de aplicaciones Front-End",
     "image": "/img/react_hospital.jpg",
-    "liveUrl": "https://github.com/anemonadja/entrega_nv_M5_ABPro4.git",
+    "liveUrl": "https://entrega-nv-m5-ab-pro4-2nd9.vercel.app/",
     "githubUrl": "https://github.com/anemonadja/entrega_nv_M5_ABPro4.git",
     "tags": ["React", "Node.js"]
   },
